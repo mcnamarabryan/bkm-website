@@ -1,0 +1,26 @@
+/*
+Theme Name: BKM Technology Solutions
+Theme URI: https://bkm-tech.com
+Author: BKM Technology Solutions
+Author URI: https://bkm-tech.com
+Description: Custom marketing theme for BKM Technology Solutions — custom applications, system integration, ETL, and application maintenance, plus the DraftShield product. Light, precise, production-ready.
+Version: 1.1.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bkm
+Tags: business, custom-colors, custom-logo, editor-style, featured-images, one-column, translation-ready
+
+BKM Technology Solutions — all theme styles are loaded from
+assets/css/main.css, enqueued in functions.php.
+Do not add styles here; WordPress requires this file for the theme header only.
+*/
+
+/* Fallback base so the theme is never unstyled if main.css fails to load. */
+body {
+  background: #f6f8fa;
+  color: #475467;
+  margin: 0;
+}

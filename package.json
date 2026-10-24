@@ -1,0 +1,32 @@
+{
+  "name": "bkm-technology-solutions",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "theme:build": "cd wp-theme/bkm-technology-solutions && node scripts/build-zip.mjs",
+    "theme:lint-php": "node scripts/lint-php.mjs",
+    "theme:check-css": "node scripts/verify-theme-css.mjs",
+    "theme:check-tokens": "node scripts/verify-css-tokens.mjs",
+    "theme:verify": "node scripts/verify-theme-css.mjs && node scripts/verify-css-tokens.mjs && node scripts/lint-php.mjs && node scripts/verify-theme-zip.mjs",
+    "theme:package": "npm run theme:build && npm run theme:verify"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
