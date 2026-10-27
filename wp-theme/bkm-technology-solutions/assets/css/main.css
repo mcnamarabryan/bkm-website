@@ -494,6 +494,7 @@ textarea.field {
 
 .brand-sub {
   margin-top: 3px;
+  white-space: nowrap;
   font-family: var(--font-mono);
   font-size: 6.5px;
   text-transform: uppercase;

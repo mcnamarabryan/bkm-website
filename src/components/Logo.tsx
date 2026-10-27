@@ -154,13 +154,13 @@ export function Logo({
             BKM
           </span>
           <span
-            className="mt-[3px] font-mono uppercase text-steel-mute"
+            className="mt-[3px] whitespace-nowrap font-mono uppercase text-steel-mute"
             style={{
-              fontSize: Math.max(7, Math.round(size * 0.185)),
-              letterSpacing: '0.19em',
+              fontSize: Math.max(6.5, Math.round(size * 0.16)),
+              letterSpacing: '0.15em',
             }}
           >
-            Technology
+            Technology Solutions
           </span>
         </span>
       </span>

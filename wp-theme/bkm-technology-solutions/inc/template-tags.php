@@ -22,7 +22,7 @@ function bkm_brand_lockup( $uid = 'a', $plated = true ) {
 		<?php echo bkm_get_logo_mark( $uid, $plated ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 		<span class="brand-text">
 			<span class="brand-name">BKM</span>
-			<span class="brand-sub"><?php echo esc_html( 'Technology' ); ?></span>
+			<span class="brand-sub"><?php echo esc_html( 'Technology Solutions' ); ?></span>
 		</span>
 	</span>
 	<?php
